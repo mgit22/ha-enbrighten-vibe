@@ -1,0 +1,13 @@
+[project]
+name = "ha-enbrighten-vibe"
+version = "0.1.0"
+description = "Home Assistant integration and protocol library for Enbrighten Vibe lighting."
+readme = "README.md"
+requires-python = ">=3.14"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py314"
